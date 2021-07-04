@@ -142,7 +142,7 @@ public class FileUploadServlet extends HttpServlet {
                  */
 
                 System.out.println("文件信息[件名: " + fileName + " ---文件类型" + fileExtName + "]");
-                // 可以使用UID（唯一识别的通用码),保证文件名唯
+                // 可以使用UID（唯一识别的通用码),保证文件名唯一
                 // 0UID. randomUUID(),随机生一个唯一识别的通用码;
                 String uuidPath = UUID.randomUUID().toString();
 
